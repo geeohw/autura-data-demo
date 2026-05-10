@@ -42,7 +42,7 @@ python dashboard.py
 3. **Aggregates** per-customer metrics: total tickets, open tickets, high-priority tickets, average MRR, failed payments
 4. **Joins** all sources on `customer_id` into a single unified view
 5. **Scores** each customer with a churn risk label (Low / Medium / High) based on payment failures, open tickets, and subscription status
-6. **Exports** the unified view to CSV and a visual dashboard to PNG
+6. **Exports** the unified view to CSV and an interactive Plotly dashboard as HTML
 
 ## Dashboard Output
 
