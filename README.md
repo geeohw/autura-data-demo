@@ -20,19 +20,19 @@ autura-data-demo/
 │   ├── support_tickets.csv    # Simulated support data (Zendesk)
 │   └── revenue.csv            # Simulated finance data (NetSuite)
 ├── pipeline.py                # Data cleaning, joining, and churn scoring
-├── analysis.py                # Visualizations and dashboard generation
+├── dashboard.py               # Interactive Plotly dashboard with hover tooltips
 ├── output/
 │   ├── unified_customer_view.csv
-│   └── customer_health_dashboard.png
+│   └── customer_health_dashboard.html
 └── README.md
 ```
 
 ## How to Run
 
 ```bash
-pip install pandas matplotlib seaborn
+pip install pandas plotly
 python pipeline.py
-python analysis.py
+python dashboard.py
 ```
 
 ## What the Pipeline Does
@@ -46,13 +46,15 @@ python analysis.py
 
 ## Dashboard Output
 
-The dashboard surfaces four views:
+The dashboard is fully interactive and opens in any browser. Hover over any data point to see customer details, click legend items to filter by risk level, and zoom into any chart.
+
+Charts included:
 - Churn risk distribution across all customers
 - Average MRR broken down by plan and risk level
-- Scatter plot of open tickets vs failed payments as churn signals
+- Scatter plot of open tickets vs failed payments as churn signals, with full customer details on hover
 - Support ticket volume by category
 
-![Customer Health Dashboard](output/customer_health_dashboard.png)
+Open `output/customer_health_dashboard.html` in your browser to explore it.
 
 ## Key Finding
 
