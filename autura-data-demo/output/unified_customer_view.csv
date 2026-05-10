@@ -1,0 +1,11 @@
+customer_id,name,plan,signup_date,status,total_tickets,open_tickets,high_pri_tickets,avg_resolution_days,avg_mrr,total_revenue,failed_payment_count,churn_risk
+C001,Riverside Towing,Enterprise,2022-03-15,active,2,0,1,1.5,1200.0,3600,0,Low
+C002,Metro Recovery,Pro,2021-08-01,churned,2,2,2,,600.0,1200,2,High
+C003,FastLane Tow,Starter,2023-01-10,active,2,0,0,1.0,200.0,600,0,Low
+C004,City Impound LLC,Enterprise,2020-11-20,active,1,0,0,1.0,1200.0,3600,0,Low
+C005,QuickHook Services,Pro,2022-06-30,active,1,0,0,1.0,600.0,1800,0,Low
+C006,Lakeview Towing,Starter,2023-05-14,churned,2,2,2,,200.0,400,2,High
+C007,Apex Recovery,Enterprise,2021-02-28,active,1,0,0,1.0,1200.0,3600,0,Low
+C008,Delta Tow Co,Pro,2022-09-01,churned,2,2,2,,600.0,1200,2,High
+C009,Summit Impound,Starter,2023-07-19,active,1,0,0,1.0,200.0,600,0,Low
+C010,BlueLine Towing,Enterprise,2020-04-05,active,1,0,0,1.0,1200.0,3600,0,Low
